@@ -1,0 +1,23 @@
+formDetails:
+  - file_name: form-details
+    fileCode: Q1W2ERT
+    form_id: '1594890810035'
+    file_format: ''
+    isFormIdPresentFileName: false
+    esIndexName: forms
+    esIndexDocType: doc
+    kafkaTopic: forms
+    kakfkaKey: forms
+    description: action fields has logs index name
+    action: form-data
+  - file_name: form-information
+    fileCode: ABC-DEF
+    form_id: '1621977715045'
+    file_format: ''
+    isFormIdPresentFileName: true
+    esIndexName: form-data
+    esIndexDocType: doc
+    kafkaTopic: form-data
+    kakfkaKey: form-data
+    description: action fields has logs index name
+    action: form-data
